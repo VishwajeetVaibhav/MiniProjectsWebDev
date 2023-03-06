@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // alert("Hi this is me")
+        
+        
+        // 2. Javascript Console API:
+        // console.log("This is console API");
+        // console.warn("this is warning");
+        // console.error("This is error");
+        // console.log("This is another log", 10+20,"This multiple statement log");
+        // console.assert(10>5);
+
+        // // 3. JavaScript Variables :
+        //  var num1 = 34;
+        //  var num2 = 56;
+        //  console.log(num1+num2);
+        // //  var keyword is used to declare variable. 
+        
+        // // 4. Data Types in JavaScript :
+        //     // String
+        //     var str1 = "This is string in double quote";
+        //     var str2 = 'This is string in double quote';
+
+        //     // Numbers
+        //     var numbers1 = 234;
+        //     var numbers2 = 45.6;
+
+        //     // Objects
+        //     var marks = {
+        //         ravi: 34,
+        //         shubham: 78,
+        //         vishu: 66.56
+        //     }
+
+        //     console.log(str1 + str2);
+        //     console.log(numbers1);
+        //     console.log(numbers2);
+        //     console.log(marks);
+
+        //     // Boolean
+            // var a = true;
+            // var b = false;
+            // console.log(a,b);
+
+            // undefined and null
+            // var und = undefined
+            // variable which is not given any value basically undefined variable
+
+            // var nll = null;
+            // this variable is given null value basically no value
+        
+        /*
+        
+        At a very high level, there are two types of data types in JavaScript: 
+        1. Primitive data types: undefined, null, number, string, boolean, Symbol
+        2. Reference data types: Arrays and Objects
+        
+        */
+        // Arrays in Javascript :
+        // var arr = [1,2,3,4,5];
+        // var arr2 = [1,'vishu',23,45, true];
+        // indexing starts  from 0 to n-1 where n is number of elements.
+
+        /*
+        Operators in Javascript : 
+            1.Arithematic operator : + , - , * ,/ , %;
+            2.Assingment Operator : to assing a value to variable using = sign
+            3.Comparision Operator : to compare two values wether they are equal, greater, lesser...etc;
+            4.Logical Operator : &&, || and ! and , or and not.   
+            
+        */
+    //    console.log("The value of a + b = ",a+b); //Addition
+    //    console.log("The value of a + b = ",a-b);//Substraction
+    //    console.log("The value of a + b = ",a*b);//Multiplication
+    //    console.log("The value of a + b = ",a/b);//Division
+    //    console.log("The value of a + b = ",a%b);//Modulo to get remainder.
+
+    //    the symbol used to do certain operattion is called operator and operation performed on certain data the nthat data is called operands.
+
+    // Function in JavaScript:
+    // function avg(a,b){     //Defination of function.
+    //     return (a+b)/2
+    // }
+    //  c1 = avg (4,6);     //Calling a function.
+    // console.log(c1);
+    // DRY = Do not Repeat Yourself (Can be achived by using function).
+    
+    
+    /*
+    In Case of chrome console:
+    If something is showing in black color then it is a string.
+    And if something is showing in blue color then it is number.
+    */ 
+   
+    
+
+    // Conditional Statements in Javascript:
+
+    // var age = 4;
+    // if(age < 18){
+    //     console.log("You Can not cast vote !");
+    // }
+    // else{
+    //     console.log("You can cast vote");
+    // }
+
+    // We can write single if statement only.
+
+    // We can write if and else statement also.
+
+    // if-else Ladder:
+    // if(age>32){
+    //     console.log("You are young");
+    // }
+    // else if ( age<32){
+    //     console.log("You are less than 32");
+    // }
+    // else{
+    //     console.log("Pta nhi kya ho tm!!!");
+    // }
+
+    // let j=0;  //variable created with let keyword have block level scope.
+        // const a = 0; // Const keyword is used to create constact which is immutable.
+    
+    
+        // Loops in Javascript:
+        var arr = [1,2,3,4,5,6,7];
+        // console.log(arr);
+        // For Loop : 
+        // for (var i =0; i<arr.length;i++){
+        //     console.log(arr[i]);
+        // }
+
+        // For - each loop : 
+        // arr.forEach(fucntion(element){
+        //     console.log(element)
+        // })
+        
+        // While Loop :
+        //     let j = 0;
+        //     while(j<arr.length){
+        //         console.log(arr[j]);
+        //         j++;
+        //     }
+
+        // //Do while Loop : Executes at least once without checking condition for the first time. 
+        // do{
+        //     console.log(arr[j]);
+        //     j++;
+        // }while(j<arr.length);
+
+
+
+
+        // Break and Constinue Statements : 
+        // Break : terminates iterations on encountring break statement
+        // Constinue : Skips iteration where it encounters continue statement
+
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        // Methods of Array in Javascript : 
+            // let myArr = ["Fan","Camera", 34,null, true,];
+            // // To calculate length of array :
+            //     // arrayName.length 
+            // console.log(myArr.length);
+
+            // //To remove last element of array : 
+            //     // arrayName.pop()
+            // myArr.pop();
+
+            // // To add an element to existing array : 
+            //     // arrayName.push("element to be inserted in array")
+            // myArr.push("harry");
+            
+            // // To remove first element from existing array : 
+            //     // arrayName.shift()
+            // myArr.shift();
+
+            // // To add element in starting position of an existing array : 
+            //     // arrayName.unshift()
+            // myArr.unshift();
+
+            // // To convert an array into string : 
+            //     // arrayName.toString()
+            // myArr.toString();
+
+            // // To sort array : 
+            //     // arrayName.sort()
+            // myArr.sort()   //If array have numbers then it will sort numbers in dictionary order after converting numbers into string.
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// String Methods in Javascript : 
+// let myString = "My name is Vishwajeet Vaibhav.";
+// console.log(myString.length); // To calculate length of string.
+// console.log(myString.indexOf("name")); //To find index of a specific word or charecter in a string(in this case it will return 4 because 'n' starts from index 4).
+//                         //In string ' ' is also considerd as a charecter it also have indexing value. It returns first index only
+// console.log(myString.lastIndexOf("Vaibhav")); // To return last index of a charecter or word.
+// console.log(myString.slice(1,4)); // It will return charecter starting form 1 index to 4 index. It will slice the string form specified index to specified index.
+
+// //To replace first occurance of a word from string:
+// d = myString.replace("Vishwajeet","Vishu"); //It will replace 'Vishwajeet' to 'Vishu';
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+// Dates in Javascript : 
+    // In the below example i am storing current date into myDate variable and then i am printing it in console of browser.
+    let myDate = new Date(); // new keyword is used to create new date .
+    console.log(myDate); 
+    // Methods in Dates : 
+            console.log(myDate.getTime()); // It returns time in seconds.
+            console.log(myDate.getDate()); //It retuns date only(to is 25th of feb 2023, so it will return 25 only).
+            console.log(myDate.getFullYear()); // It will return 2023 coz current year is 2023;
+            console.log(myDate.getDay()); // It will return an integer value considering sunday = 0 and saturday = 6, Today is saturday so it will return 6.
+            console.log(myDate.getMonth());  //Get months as a number (0 - 11).
+            console.log(myDate.getMilliseconds()); //It will return millisecond(0-999).
+            // There are more methods in date of javascript.
+
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                // DOM(Document Object Model) Manipulation:
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// DOM Manipulation : 
+     
+    
+
+    </script>    
+</body>
+
+</html>
